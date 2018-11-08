@@ -1,0 +1,5 @@
+glue:
+  sample:
+    service:
+      basedir: C:/works/eclipse-workspace/glue-framework/glue-core/src/test/resources/service
+
