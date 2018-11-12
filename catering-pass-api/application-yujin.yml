@@ -4,4 +4,4 @@ glue:
   meta:
     source: http
     http: 
-      url: http://192.168.41.81:8080/glue-service
+      url: http://192.168.41.81:8080/glue-service/service
