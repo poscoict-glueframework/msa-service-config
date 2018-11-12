@@ -1,0 +1,6 @@
+server:
+  port: 9002
+glue:
+  meta:
+    source: classpath
+#glue.cache.configuration: ehcache.xml  
