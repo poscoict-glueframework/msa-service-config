@@ -1,0 +1,18 @@
+server:
+  port: 9102
+spring:
+  datasource:
+    url: jdbc:oracle:thin:@192.168.41.81:1521/XE
+    username: scott
+    password: '{cipher}AQA7xJRaKWKz4D5DOcYsMZtV76+Qc7dWtpqY7PgCNWcxuCKKFo8+pZuqmmxMNZNfJyuX5t9uUvfiAAehjLIe7I4847WCcmA8mpQom3fziMflA/YUyfEviWtWqQlWOw4+vaGPgzE7OOm1nX3tq9Hfv5Dqov0dGAXWGOlwgKg5fxXbexbXgJPYBMIPA/ZlCk9Nk3l7t9/r5s8L7NcCqwSfD+5SE7RwytZRWEzl3/PYrs0sKuXMouQ9kM9iKRj+RnPgoYTkt9MAo2DZ/aJeaxAjrCdMGggYAjq20zExynvzsquGn1JL+aTJYXg7bzQFRLCiLf3vDuRVmTTGg5G6k8KCX9WHvMlQsrjycpi2nCvVYm1AMK+cKJUPovjrRG/hXRv6h4c='
+    driver-class-name: oracle.jdbc.driver.OracleDriver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    database: oracle
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql:true
+encrypt:
+  failOnError: false

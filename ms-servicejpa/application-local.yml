@@ -1,0 +1,18 @@
+server:
+  port: 9102
+spring:
+  datasource:
+    url: jdbc:mysql://192.168.243.172:3306/servicestore
+    username: user1
+    password: '{cipher}AQACeVvCVBSZPba7qw4iJj2Hyevom/jlBTOv+TPOFKqxjnIGkg4GYdjru6KeuwA1ACCIYHeJUF/fgxAHJSMW4jSjn2zgEZ68YrhFZwzPJfzAjLXHn60zApFKXxPlmGDXYNovNVpGUAYsSV+HtzyeNhwmT7R29cP9Wz/0dkgOteikECl2620FsGuIwfmoYnD3l7QprYxdSDfSU9JQ40X7kKKT8pMjCc24SbXHgr11FKiwFmxxiCNy7Twz/u+QyJwEpxtbTiZULQXNp1mtnc9vnd5wyjc2klvtnYZEiZ9SQ6CrQC0Wm7WSF0ZPsixjFbBogOjuPppYenyzco7Z2BxoWlJsE9kvWSkIvPc/+p/v4xgyMy7RIDDXN7JZvJdATDAs6Ac='
+    driver-class-name: org.mariadb.jdbc.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    database: mysql
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql:true
+encrypt:
+  failOnError: false
