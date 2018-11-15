@@ -14,5 +14,8 @@ spring:
     properties:
       hibernate:
         format_sql:true
+spring:
+  main:
+    allow-bean-definition-overriding: true
 encrypt:
   failOnError: false
