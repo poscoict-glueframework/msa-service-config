@@ -1,3 +1,7 @@
+logging:
+  level: 
+    ROOT: WARN
+    com.poscoict: TRACE
 glue:
   sample:
     title: provider-api 랍니다.
